@@ -1,0 +1,248 @@
+/* Global styles */
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+    color: #0d6efd;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(135deg, #1e40af, #2563eb, #0ea5e9);
+    color: white;
+    text-align: center;
+    padding: 6rem 1rem;
+    position: relative;
+    background-size: 200% 200%;
+    animation: gradientFlow 10s infinite alternate ease-in-out;
+}
+
+@keyframes gradientFlow {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+.hero h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    max-width: 750px;
+    margin: 0 auto;
+}
+
+.hero img {
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    width: 15%;
+    /* Sets the image size relative to its container */
+    max-width: 202px;
+    /* Limits the size on larger screens */
+    height: auto;
+    /* Maintains aspect ratio */
+}
+
+.hero img:hover {
+    transform: scale(1.2) rotate(5deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+/* Responsive Image Sizes */
+@media (max-width: 768px) {
+    .hero img {
+        width: 25%;
+        /* Adjust size for tablets and smaller screens */
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero img {
+        width: 40%;
+        /* Further adjust size for mobile screens */
+        max-width: 120px;
+    }
+}
+
+
+/* Sections */
+section {
+    padding: 4rem 1rem;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeInUp 0.8s forwards ease-in-out;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.mission,
+.achievements,
+.testimonials,
+.contact {
+    background-color: #ffffff;
+}
+
+.mission h2,
+.achievements h2,
+.testimonials h2,
+.contact h2 {
+    color: #1e3a8a;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Card Styles */
+.card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+button,
+a.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #2563eb, #1e40af);
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+button:hover,
+a.button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(135deg, #1e40af, #2563eb);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Key Areas */
+.key-areas {
+    background-color: #f9fafb;
+    padding-top: 4rem;
+}
+
+.key-areas .bg-white {
+    padding: 2rem;
+    border-radius: 12px;
+    transition: all 0.4s ease-in-out;
+}
+
+.key-areas .bg-white:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Contact Section */
+.contact .bg-gray-50 {
+    padding: 3rem 1.5rem;
+    border-radius: 15px;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact .bg-gray-50:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.contact a {
+    padding: 0.75rem 1.5rem;
+    display: inline-block;
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact a:hover {
+    background: linear-gradient(135deg, #2563eb, #1e3a8a);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(135deg, #1e3a8a, #2563eb);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    section {
+        padding: 2rem 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 1.5rem;
+    }
+
+    button,
+    a.button {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+}
