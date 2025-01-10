@@ -12,7 +12,7 @@ const Home = () => {
                 <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
                     <div className="flex-1 space-y-4 sm:space-y-6 text-center sm:text-left">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold">
-                            Malik Shehroz Liaquat
+                            Malik Shehroz Liaquat Nissoana
                         </h1>
                         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-blue-200 font-semibold">
                             Future Political Leader | Human Rights Activist | Legal Expert
