@@ -9,16 +9,16 @@ const Home = () => {
         <div className="min-h-screen bg-gradient-to-b from-blue-100 to-white text-gray-900">
             {/* Hero Section */}
             <header className="hero bg-gradient-to-r from-blue-600 to-blue-400 text-white py-10 sm:py-16 md:py-20">
-                <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-6 sm:gap-8">
-                    <div className="flex-1 space-y-4 sm:space-y-6 text-center md:text-left">
+                <div className="max-w-6xl mx-auto flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
+                    <div className="flex-1 space-y-4 sm:space-y-6 text-center sm:text-left">
                         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold">
                             Malik Shehroz Liaquat
                         </h1>
                         <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl text-blue-200 font-semibold">
-                            Future Political Leader | Human Rights Activist
+                            Future Political Leader | Human Rights Activist | Legal Expert
                         </h2>
                         <p className="text-sm sm:text-lg md:text-xl text-blue-100">
-                            Dedicated to serving the community and ensuring justice for all
+                            Leading with integrity, knowledge, and dedication to serving justice for all.
                         </p>
                     </div>
                     <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-white shadow-xl transform hover:scale-105 transition-transform duration-500">
@@ -26,7 +26,6 @@ const Home = () => {
                             src="./images/shehroz.png"
                             alt="Malik Shehroz Liaquat"
                             className="w-full h-full object-cover"
-
                         />
                     </div>
                 </div>
@@ -36,11 +35,13 @@ const Home = () => {
             <section className="mission py-10 sm:py-12 md:py-16 bg-blue-50">
                 <div className="max-w-4xl mx-auto text-center space-y-4 sm:space-y-6">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-blue-900">
-                        Vision for Change
+                        Vision for Change: A Future of Justice
                     </h2>
                     <p className="text-sm sm:text-lg md:text-xl text-gray-700 italic">
-                        "My mission is to create a society where justice is accessible to everyone, and human rights are
-                        protected at all levels. Through dedication and leadership, we can build a future of equality and empowerment for all."
+                        "My mission is to create a society where justice is accessible to everyone, and human rights are protected at all levels. Through dedication and leadership, we can build a future of equality and empowerment for all."
+                    </p>
+                    <p className="text-lg sm:text-xl md:text-2xl text-gray-800">
+                        Malik Shehroz Liaquat is driven by a deep-rooted commitment to the law, justice, and human rights. As a future political leader and legal expert, he is determined to use his knowledge and passion to bring positive change, standing up for those who need it the most. His vision goes beyond the courtroom—he is working to build a society based on equality, fairness, and accountability.
                     </p>
                 </div>
             </section>
@@ -51,19 +52,19 @@ const Home = () => {
                     {[
                         {
                             icon: "Gavel",
-                            title: "Legal Advocacy",
-                            description: "Pursuing law education at Islamia University Bahawalpur to strengthen legal expertise and community service.",
+                            title: "Legal Expertise & Advocacy",
+                            description: "A skilled and passionate law student at Islamia University Bahawalpur, Shehroz is developing a deep understanding of legal complexities to fight for justice. He stands firm in the belief that law should serve the people and be the foundation of a just society."
                         },
                         {
                             icon: "Users",
-                            title: "Community Leadership",
-                            description: "Actively working with police and courts to ensure justice for community members.",
+                            title: "Community Leadership & Empowerment",
+                            description: "Shehroz is a natural leader who engages with local authorities, police, and courts to ensure justice for every community member. His dedication to human rights drives him to empower and support marginalized individuals through education and advocacy."
                         },
                         {
                             icon: "Lightbulb",
-                            title: "Youth Empowerment",
-                            description: "Mentoring young individuals in legal awareness and community engagement.",
-                        },
+                            title: "Visionary Political Leadership",
+                            description: "As a future political leader, Shehroz is committed to creating policy changes that protect human rights, fight corruption, and enhance the welfare of society. His leadership is rooted in integrity, transparency, and a deep sense of duty to his community."
+                        }
                     ].map((area, index) => (
                         <div
                             key={index}
@@ -79,13 +80,10 @@ const Home = () => {
                 </div>
             </section>
 
-
-
-
             {/* Achievements */}
             <section className="achievements py-16 bg-blue-50">
                 <div className="max-w-6xl mx-auto">
-                    <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Notable Achievements</h2>
+                    <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Notable Achievements: A Legacy of Impact</h2>
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="card p-8 bg-white rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-transform duration-500">
                             <div className="flex items-start gap-4">
@@ -93,8 +91,7 @@ const Home = () => {
                                 <div>
                                     <h3 className="text-2xl font-semibold mb-2">Community Impact</h3>
                                     <p className="text-gray-600">
-                                        Successfully resolved over 50 community disputes through legal advocacy
-                                        and mediation, bringing justice to those in need.
+                                        Successfully resolved over 50 community disputes through legal advocacy and mediation, bringing justice to those in need.
                                     </p>
                                 </div>
                             </div>
@@ -105,8 +102,7 @@ const Home = () => {
                                 <div>
                                     <h3 className="text-2xl font-semibold mb-2">Leadership Recognition</h3>
                                     <p className="text-gray-600">
-                                        Recognized as an emerging young leader by local authorities for
-                                        dedication to community service and justice.
+                                        Recognized as an emerging young leader by local authorities for dedication to community service and justice.
                                     </p>
                                 </div>
                             </div>
@@ -118,12 +114,10 @@ const Home = () => {
             {/* Testimonials */}
             <section className="testimonials py-16">
                 <div className="max-w-4xl mx-auto space-y-8">
-                    <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Community Voice</h2>
+                    <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Community Voice: His Leadership Speaks Volumes</h2>
                     <blockquote className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-transform duration-500">
                         <p className="text-lg text-gray-700 italic mb-4">
-                            "Malik Shehroz Liaquat represents the future of leadership we need.
-                            Despite his young age, his commitment to justice and community welfare
-                            has already made a significant impact in our area."
+                            "Malik Shehroz Liaquat represents the future of leadership we need. Despite his young age, his commitment to justice and community welfare has already made a significant impact in our area."
                         </p>
                         <footer className="text-gray-600 font-semibold">
                             - Senior Community Leader
@@ -131,8 +125,7 @@ const Home = () => {
                     </blockquote>
                     <blockquote className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-transform duration-500">
                         <p className="text-lg text-gray-700 italic mb-4">
-                            "His dedication to human rights and justice is truly inspiring. At just 21,
-                            he has shown remarkable maturity in handling complex community issues."
+                            "His dedication to human rights and justice is truly inspiring. At just 21, he has shown remarkable maturity in handling complex community issues."
                         </p>
                         <footer className="text-gray-600 font-semibold">
                             - Local Legal Professional
@@ -144,14 +137,14 @@ const Home = () => {
             {/* Contact Section */}
             <section className="contact py-16 bg-blue-50">
                 <div className="max-w-4xl mx-auto">
-                    <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Get in Touch</h2>
+                    <h2 className="text-4xl font-bold text-center mb-12 text-blue-900">Get in Touch with the Future Leader</h2>
                     <div className="grid md:grid-cols-2 gap-8">
                         <div className="space-y-6 text-center md:text-left">
                             <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
                             <div className="space-y-4">
                                 <a href="tel:+93423330020" className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition-colors">
                                     <Phone className="w-5 h-5" />
-                                    <span>+92 312 6050472</span>
+                                    <span>+92 3423330020</span>
                                 </a>
                                 <a
                                     href="https://www.facebook.com/profile.php?id=100080899908154&mibextid=ZbWKwL"
@@ -161,6 +154,21 @@ const Home = () => {
                                 >
                                     <Facebook className="w-5 h-5" />
                                     <span>Malik Shehroz Liaquat</span>
+                                </a>
+                                <a
+                                    href="https://www.tiktok.com/@malikshehrozliaqat103?_t=ZS-8sws2qE8xIV&_r=1"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition-colors"
+                                >
+                                    <span>TikTok: @malikshehrozliaqat103</span>
+                                </a>
+                                <a
+                                    href="mailto:malikshehroz1100@gmail.com"
+                                    className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition-colors"
+                                >
+                                    <Mail className="w-5 h-5" />
+                                    <span>Email: malikshehroz1100@gmail.com</span>
                                 </a>
                                 <div className="flex items-center gap-3 text-gray-700">
                                     <MapPin className="w-5 h-5" />
