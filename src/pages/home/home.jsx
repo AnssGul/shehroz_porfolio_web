@@ -125,7 +125,7 @@ const Home = () => {
                     </blockquote>
                     <blockquote className="bg-white p-8 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition-transform duration-500">
                         <p className="text-lg text-gray-700 italic mb-4">
-                            "His dedication to human rights and justice is truly inspiring. At just 21, he has shown remarkable maturity in handling complex community issues."
+                            "His dedication to human rights and justice is truly inspiring. At just 22, he has shown remarkable maturity in handling complex community issues."
                         </p>
                         <footer className="text-gray-600 font-semibold">
                             - Local Legal Professional
