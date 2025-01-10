@@ -91,7 +91,7 @@ const Home = () => {
                                 <div>
                                     <h3 className="text-2xl font-semibold mb-2">Community Impact</h3>
                                     <p className="text-gray-600">
-                                        Successfully resolved over 50 community disputes through legal advocacy and mediation, bringing justice to those in need.
+                                        Successfully resolved number of community disputes through legal advocacy and mediation, bringing justice to those in need.
                                     </p>
                                 </div>
                             </div>
