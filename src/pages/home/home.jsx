@@ -149,7 +149,7 @@ const Home = () => {
                         <div className="space-y-6 text-center md:text-left">
                             <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
                             <div className="space-y-4">
-                                <a href="tel:+923126050472" className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition-colors">
+                                <a href="tel:+93423330020" className="flex items-center gap-3 text-gray-700 hover:text-blue-600 transition-colors">
                                     <Phone className="w-5 h-5" />
                                     <span>+92 312 6050472</span>
                                 </a>
