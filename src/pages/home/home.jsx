@@ -195,7 +195,7 @@ const Home = () => {
                                     Connect on Facebook
                                 </a>
                                 <a
-                                    href="tel:+93423330020"
+                                    href="tel:+923423330020"
                                     className="bg-green-600 text-white px-6 py-3 rounded-lg flex items-center gap-2 hover:bg-green-700 transition-colors w-full justify-center"
                                 >
                                     <Phone className="w-5 h-5" />

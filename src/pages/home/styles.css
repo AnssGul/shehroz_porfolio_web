@@ -96,7 +96,7 @@ a:hover {
 @media (max-width: 768px) {
     .hero img {
         width: 25%;
-        max-width: 200px;
+        max-width: 350px;
     }
 
     .hero h1 {
@@ -115,7 +115,7 @@ a:hover {
 @media (max-width: 480px) {
     .hero img {
         width: 40%;
-        max-width: 120px;
+        max-width: 150px;
     }
 
     .hero h1 {
